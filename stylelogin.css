@@ -1,0 +1,103 @@
+body
+{
+	color: #31353D;
+	padding: 0px;
+	margin: 0px;
+}
+
+.thick
+{
+	font-weight: thick;
+	color: #31353D;
+	font-family: 'Josefin Slab', serif;
+}
+
+.bold
+{
+	font-weight: 900;
+	color: #31353D;
+	font-family: 'Josefin Slab', serif;
+}
+
+#logo
+{
+	margin: 0 auto;
+	margin-top: 11%;
+	width: 400px;
+	height: 75px;
+	border-radius: 5px;
+	font-size: 70px;
+	color: #31353D;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+}
+
+#prijava
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	box-shadow: 0px 0px 10px #888888;
+	border-radius: 3px;
+}
+
+input
+{
+	height: 50px;
+	width: 400px;
+	border-width: 0px;
+	margin: 0 auto;
+	background-color: #EEEFF7;
+	padding: 0px 10px 0px 10px;
+	font-size: 15px;
+	color: #31353D;
+	line-height: 15px;
+}
+
+input[type='text']:focus, input[type='password']:focus, input[type='submit']:focus
+{
+	outline: 0px;
+	font-size: 16px;
+}
+
+#txt
+{
+	border-radius: 3px 3px 0px 0px;;
+}
+
+#pass
+{
+	
+}
+
+#sub
+{
+	background-color: #445878;
+	border-radius: 0px 0px 3px 3px;
+	color: #1C1D21;
+}
+
+#sub:hover
+{
+	background-color: #59729C;
+	cursor: pointer;
+}
+
+#sub:focus
+{
+	font-size: 15px;
+}
+
+a, a:hover, a:active
+{	
+	display: inline-block;
+	margin-top: -10px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #555555;
+}
+
+a:hover
+{
+	color: #333232;
+}

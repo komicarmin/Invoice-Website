@@ -1,0 +1,214 @@
+body
+{
+	color: #31353D;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	background-color: #EEEFF7;
+	background-image: URL('Slike/bg.jpg');
+	background-repeat: repeat-y;
+	min-width: 500px;
+	min-height: 250px;
+}
+
+.thick
+{
+	font-weight: thick;
+	color: #31353D;
+	font-family: 'Josefin Slab', serif;
+	font-size: 36px;
+}
+
+.bold
+{
+	font-weight: 900;
+	color:  #EEEFF7;
+	font-family: 'Josefin Slab', serif;
+	font-size: 36px;
+}
+
+#glava
+{
+	width: 100%;
+	height: 50px;
+	background-color: #445878;
+	box-shadow: 0px 0px 15px #888888;
+	position: relative;
+}
+
+#logo
+{
+	height:36px;
+	width: auto;
+	margin-left: 7px;
+	margin-top: 7px;
+	float: left;
+}
+
+#acc
+{
+	height: 28px;
+	width: 200px;
+	float: right;
+	margin-right: 7px;
+	margin-top: 11px;
+	color: #EEEFF7;
+}
+
+#ime
+{
+	height:28px;
+	width: auto;
+	float: right;
+	line-height: 27px;
+	margin-right: 10px;
+}
+
+#odjava
+{
+	height: 26px;
+	width: 56px;
+	border-radius: 3px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #EEEFF7;
+	float: right;
+	color: #EEEFF7;
+}
+
+#odjava:hover
+{
+	background-color: #EEEFF7;
+	cursor: pointer;
+	color: #31353D;
+}
+
+#container
+{
+	width: 100%;
+	height: auto;
+}
+
+#meni
+{
+	width: 200px;
+	height: auto; 
+	float: left;
+}
+
+.gumb, .iskanje, .gumbUredi
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	line-height: 43px;
+	width: 100%;
+	height: 45px;
+	font-family: Arial, serif;
+	font-size: 15px;
+	border-style: solid;
+	border-width: 0 0 0 5;
+	border-color: #59729C;
+}
+
+.gumbUredi
+{
+	height: 25px;
+	line-height: 25px;
+}
+
+.gumbUredi:hover
+{
+	background-color: #59729C;
+	color: #EEEFF7;
+}
+
+input[type="radio"]
+{
+	display: none;
+}
+
+label
+{
+     cursor:pointer;
+}
+
+.gumb:hover, #izbran
+{
+	background-color: #59729C;
+	color: #EEEFF7;
+}
+
+.iskanje
+{
+	background-color: #59729C;
+}
+
+#iskanjeInput
+{
+	margin-top: 7px;
+	height: 31px;
+	width: 203px;
+	border-radius: 3px;
+	border: 1px solid #EEEFF7;
+	background-color: #59729C;
+	color: #EEEFF7;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#iskanjeInput:focus
+{
+	outline: 0px;
+}
+
+::-webkit-input-placeholder
+{
+	text-align: center;
+	color: #EEEFF7;
+}
+
+:-moz-placeholder
+{
+	text-align: center;
+	color: #EEEFF7;
+}
+
+::-moz-placeholder
+{
+	text-align: center;
+	color: #EEEFF7;
+}
+
+:-ms-input-placeholder
+{
+	text-align: center;
+	color: #EEEFF7;
+}
+
+#vsebina
+{
+	margin-left: 219px;
+	height: auto; 
+	background-color: #EEEFF7;
+	font-family: Arial, serif;
+	font-size: 15px;
+}
+
+table
+{
+	border: 0px solid black;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+td:hover 
+{
+	background-color: #E2F0D6;
+}
+
+a
+{
+	color: #31353D;
+	text-decoration: none;
+}
+
